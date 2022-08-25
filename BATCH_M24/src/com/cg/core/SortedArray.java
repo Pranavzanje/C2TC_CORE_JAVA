@@ -17,6 +17,7 @@ public class SortedArray {
 			for (int num:arr) {
 				System.out.println(num+" ");
 			}
+			//length of array
 		System.out.println("Length of the Array is=");
 		System.out.println(arr.length);
 			}
