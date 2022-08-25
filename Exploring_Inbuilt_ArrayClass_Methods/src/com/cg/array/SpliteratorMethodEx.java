@@ -17,8 +17,5 @@ public class SpliteratorMethodEx {
 	}
 
 }
-//It returns a string representation of the contents of this array.
-//The string representation consists of a list of the array’s elements,
-//enclosed in square brackets (“[]”). Adjacent elements are separated by 
-//the characters a comma followed by a space. Elements are converted to 
-//strings as by String.valueOf() function.
+
+//Returns a Spliterator covering all of the specified Arrays.
