@@ -17,3 +17,5 @@ public class BinarySearchMethodExample {
 	}
 
 }
+//Searches for the specified element in the array with the help of 
+//the Binary Search Algorithm
