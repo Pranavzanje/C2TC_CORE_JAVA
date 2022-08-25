@@ -9,7 +9,7 @@ public class BinarySearchMethodExample {
         int key = 30;  
         int result = Arrays.binarySearch(arr,key);  
         if (result < 0)  
-            System.out.println("Element is not found!");  
+            System.out.println("Element is Not found!");  
         else  
             System.out.println("Element is found at index: "+result);  
 
@@ -17,5 +17,5 @@ public class BinarySearchMethodExample {
 	}
 
 }
-//Searches for the specified element in the array with the help of 
-//the Binary Search Algorithm
+//Searches for the specified element in the array with the help  
+//of the Binary Search Algorithm
