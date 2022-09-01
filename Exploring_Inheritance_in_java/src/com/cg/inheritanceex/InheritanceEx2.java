@@ -1,13 +1,13 @@
 package com.cg.inheritanceex;
-class bankloan
+class Bankloan
 {  
-void interest(){System.out.println("2%");} 
+void LoanAmount(){System.out.println("20000");} 
 }
-class Homeloan1 extends bankloan{
-	void interestHL() {System.out.println("5%");}
+class Homeloan1 extends Bankloan{
+	void Clientname() {System.out.println("pranav");}
 }
 class Personalloan extends Homeloan1{
-	void interestPL() {System.out.println("10%");}
+	void InterestPL() {System.out.println("10%");}
 	
 }
 
@@ -16,9 +16,9 @@ public class InheritanceEx2 {
 
 	public static void main(String[] args) {
 		Personalloan i=new Personalloan(); 
-		i.interestPL(); 
-		i.interestHL(); 
-		i.interest(); 
+		i.InterestPL(); 
+		i.Clientname(); 
+		i.LoanAmount(); 
 		
 
 	}
