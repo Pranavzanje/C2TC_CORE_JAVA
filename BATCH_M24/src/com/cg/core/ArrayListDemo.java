@@ -13,17 +13,17 @@ l.remove(2);
 System.out.println(l);
 l.add(0,"Mr");
 System.out.println(l);
-	String [] A=new String[500];
-	A[0]="Alia";
-	A[1]="Ranbir";
-	A[2]="45";
-	
-	ArrayList <String> V=new ArrayList<String>();
-	V.add("Alia");
-	V.add("Ranvir");
-//	V.add(45);
-	
-	System.out.println(V);
+//	String [] A=new String[500];
+//	A[0]="Alia";
+//	A[1]="Ranbir";
+//	A[2]="45";
+//	
+//	ArrayList <String> l=new ArrayList<String>();
+//	l.add("Alia");
+//	l.add("Ranvir");
+////	l.add(45);
+//	
+//	System.out.println(V);
 	}
 
 }
