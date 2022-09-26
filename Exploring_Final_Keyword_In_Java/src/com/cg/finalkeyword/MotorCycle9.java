@@ -2,7 +2,7 @@ package com.cg.finalkeyword;
 
 public class MotorCycle9 {
 	 
-		 final int speedlimit=90;//final variable  
+		 int speedlimit=90;//final variable  
 		 void run(){  
 		  speedlimit=400;  
 		 }  

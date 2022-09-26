@@ -1,7 +1,7 @@
 package com.cg.finalkeyword;
 
 public class Motorcycle {
-	  final void run(){System.out.println("running");}  
+	  void run(){System.out.println("running");}  
 	}  
 	     
 	class Honda extends Motorcycle{  

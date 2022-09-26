@@ -1,10 +1,12 @@
 package com.cg.inheritanceex;
 class loan
 {  
-void interest(){System.out.println("2%");} 
+void interest()
+{System.out.println("2%");} 
 }
-class homeloan extends loan{
-	void interestHL() {System.out.println("5%");}
+class Homeloan extends loan{
+	void interestHL() 
+	{System.out.println("5%");}
 		
 
 }
@@ -12,7 +14,7 @@ class homeloan extends loan{
 public class InheritanceEx1 {
 
 	public static void main(String[] args) {
-		homeloan i=new homeloan();  
+		Homeloan i=new Homeloan();  
 		i.interestHL();  
 		i.interest();  
 
